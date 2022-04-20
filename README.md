@@ -14,23 +14,23 @@ Curso para crear una Single Page Application con javascript vanilla, en el cual 
 ---------
 
 Trabajamos con Webpack instalando inicialmente las siguientes dependencias (loaders y plugins)
-@babel/core 
-babel-loader 
-html-webpack-plugin 
-webpack webpack-cli 
-webpack-dev-server 
-copy-webpack-plugin : para trabajar con css
-(--save-dev) : Instalacion de desarrollo
+- @babel/core 
+- babel-loader 
+- html-webpack-plugin 
+- webpack webpack-cli 
+- webpack-dev-server 
+- copy-webpack-plugin : para trabajar con css
+- (--save-dev) : Instalacion de desarrollo
 
 -----------
 
-Trabajo de Hash de la pagina
-La forma de obtener el hash con javascript es la siguiente:
+Trabajo de Hash de la pagina.
+- La forma de obtener el hash con javascript es la siguiente:
 
-Código :
+* Código :
 window.location.hash;
-Sería práctico almacenarlo en una variable si lo vas a utilizar.
-Código :
+- Sería práctico almacenarlo en una variable si lo vas a utilizar.
+* Código :
 var hash = window.location.hash;
 
 ------------
