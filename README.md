@@ -18,3 +18,13 @@ html-webpack-plugin
 webpack webpack-cli 
 webpack-dev-server 
 (--save-dev) : Instalacion de desarrollo
+-----------
+Trabajo de Hash de la pagina
+La forma de obtener el hash con javascript es la siguiente:
+
+Código :
+window.location.hash;
+Sería práctico almacenarlo en una variable si lo vas a utilizar.
+
+Código :
+var hash = window.location.hash;
