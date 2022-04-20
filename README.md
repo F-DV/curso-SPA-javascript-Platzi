@@ -9,7 +9,7 @@ Curso para crear una Single Page Application con javascript vanilla, en el cual 
  -styles: manejo de los estilos
  -utils: utilerias codigos de ayuda al proyecto
  -public: Vivi el codigo que vamos a utilizar, y el codigo que vamos a mandar a producción
-
+ -templates: No son paginas si no partes de las paginas 
  ---------
 Trabajamos con Webpack instalando inicialmente las siguientes dependencias (loaders y plugins)
 @babel/core 
