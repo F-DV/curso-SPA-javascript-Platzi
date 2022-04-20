@@ -30,11 +30,14 @@ module.exports = {  //Aquí se encuentra toda la configuración de lo que va a s
                 filename: './index.html'    //El nombre que tendrá el archivo dentro del template
             }
         ),
-        new CopyWebpackPlugin([
-            {
-                from: ' ./src/styles/style.css',
-                to: ''
-            }
-        ])
+        new CopyWebpackPlugin({
+            patterns:[
+                {
+                    from:'./src/styles/styles.css',
+                    to:''
+                }
+            ],
+        })
+        
     ]
 }

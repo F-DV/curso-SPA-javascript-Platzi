@@ -17,6 +17,7 @@ babel-loader
 html-webpack-plugin 
 webpack webpack-cli 
 webpack-dev-server 
+copy-webpack-plugin : para trabajar con css
 (--save-dev) : Instalacion de desarrollo
 -----------
 Trabajo de Hash de la pagina
@@ -28,3 +29,4 @@ Sería práctico almacenarlo en una variable si lo vas a utilizar.
 
 Código :
 var hash = window.location.hash;
+------------
