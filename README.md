@@ -1,4 +1,4 @@
-# curso-SPA-javascript-Platzi
+## curso-SPA-javascript-Platzi
 Curso para crear una Single Page Application con javascript vanilla, en el cual se consume una API,
  en este caso la de Rick and Morty para crear la SPA
 
@@ -30,3 +30,12 @@ Sería práctico almacenarlo en una variable si lo vas a utilizar.
 Código :
 var hash = window.location.hash;
 ------------
+# Despliegue usando la herramienta Travis CI
+Travis es una herramienta de integracion continua que permite a los desarrolladores crear, probar 
+e implementar codigo de forma rapida y sencilla.
+- Nos permite generar un script que va a estar conectado a nuestro repositorio apra generar integración
+    continua, esto significa que cuando detecte un cambio en la Rama que le indiquemos
+    pueda generar un compilado en un servidor en la nube y mandar estos cambios hacia el repositorio
+    que va a utilizar github pages para poder publicar la aplicación.
+- Con esto garantizamos que cuando estes desarrollando poder mandar cambios dentro de un flujo y automaticamente
+    poder publicar estos cambios sin la necesidad de mandarlos de nuevo manualmenre.
