@@ -10,7 +10,9 @@ Curso para crear una Single Page Application con javascript vanilla, en el cual 
  -utils: utilerias codigos de ayuda al proyecto
  -public: Vivi el codigo que vamos a utilizar, y el codigo que vamos a mandar a producción
  -templates: No son paginas si no partes de las paginas 
- ---------
+
+---------
+
 Trabajamos con Webpack instalando inicialmente las siguientes dependencias (loaders y plugins)
 @babel/core 
 babel-loader 
@@ -19,17 +21,20 @@ webpack webpack-cli
 webpack-dev-server 
 copy-webpack-plugin : para trabajar con css
 (--save-dev) : Instalacion de desarrollo
+
 -----------
+
 Trabajo de Hash de la pagina
 La forma de obtener el hash con javascript es la siguiente:
 
 Código :
 window.location.hash;
 Sería práctico almacenarlo en una variable si lo vas a utilizar.
-
 Código :
 var hash = window.location.hash;
+
 ------------
+
 # Despliegue usando la herramienta Travis CI
 Travis es una herramienta de integracion continua que permite a los desarrolladores crear, probar 
 e implementar codigo de forma rapida y sencilla.
